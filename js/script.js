@@ -154,7 +154,7 @@ function open() {
 // xmlhttp.open("GET", 'http://www.omdbapi.com/?apikey=8b47da7b&s=People', true);
 // xmlhttp.send();
 
-fetch('http://www.omdbapi.com/?apikey=8b47da7b&s=People')
+fetch('https://www.omdbapi.com/?apikey=8b47da7b&s=People')
     .then(res => res.json())
 .then(json => {
   let arrOfFilms = json.Search;
